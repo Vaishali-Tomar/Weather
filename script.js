@@ -5,7 +5,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 
 
 async function checkWeather(e){
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=92745a0de90e4ac7910175301241203&q=${e}`);
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=92745a0de90e4ac7910175301241203&q=${e}`);
     var data = await response.json();
 
 
